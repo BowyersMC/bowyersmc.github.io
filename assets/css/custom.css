@@ -2,3 +2,11 @@ img.minecraft-item {
   float: left;
   margin: -0.2em 0.65em 0 0;
 }
+
+a.image-link {
+  transition:0.25s;
+  border-style: none;
+}
+a.image-link:hover {
+  opacity:0.5;
+}
