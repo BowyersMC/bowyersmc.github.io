@@ -10,3 +10,8 @@ a.image-link {
 a.image-link:hover {
   opacity:0.5;
 }
+
+video {
+  width: 95%;
+  border-radius: 10px;
+}
