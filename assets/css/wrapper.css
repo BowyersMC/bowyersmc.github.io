@@ -34,7 +34,7 @@ body {
 }
 
 #sidebar {
-    background: #0e3d69; /* #312450 */
+    background: #021b49; /* #312450 */
 }
 
 .wrapper.alt {
@@ -58,15 +58,15 @@ body {
 }
 
 .wrapper.style3 {
-    background-color: #baa51c; /* #b74e91 */
+    background-color: #5e42a6; /* #b74e91 */
 }
 
 .wrapper.style3-alt {
-    background-color: #c4a81b; /* #953d75 */
+    background-color: #493382; /* #953d75 */
 }
 
 .wrapper.style3 .icon.major:before {
-    color: #c4a81b;
+    color: #412b75;
 }
 
 .spotlights > section > .image:before {
@@ -74,14 +74,14 @@ body {
 }
 
 #sidebar nav a:before {
-    background: #094882;
+    background: #001542;
 }
 
 #sidebar nav a:after {
-    background-image: -moz-linear-gradient(to right, #0b4d8a, #1876cc); /* #5e42a6, #b74e91 */
-    background-image: -webkit-linear-gradient(to right, #0b4d8a, #1876cc);
-    background-image: -ms-linear-gradient(to right, #0b4d8a, #1876cc);
-    background-image: linear-gradient(to right, #0b4d8a, #1876cc);
+    background-image: -moz-linear-gradient(to right, #3e0b8a, #7518cc); /* #5e42a6, #b74e91 */
+    background-image: -webkit-linear-gradient(to right, #3e0b8a, #7518cc);
+    background-image: -ms-linear-gradient(to right, #3e0b8a, #7518cc);
+    background-image: linear-gradient(to right, #3e0b8a, #7518cc);
 }
 
 #header {
