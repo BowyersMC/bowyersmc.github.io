@@ -38,7 +38,8 @@
 							<p>
 								ウェポン一つ一つに、キル数に応じたティアが存在します。<br />
 								このティアが向上するにつれて、キルしたときのパーティクルが変更されていきます。<br />
-								メンテナンスのタイミングや、不定期になりますが、Tier3を超えた段階でプレイヤーのネームタグにそれぞれのウェポンをあらわしたマークが付与されていきます。
+								メンテナンスのタイミングや、不定期になりますが、Tier3を超えた段階でプレイヤーのネームタグにそれぞれのウェポンをあらわしたマークが付与されていきます。<br />
+								ティアVERTEX(X)を達成するとネームタグのマークが変更され、さらにイミテイターのスキンが変化します。
 							</p><br />
 
 							<h2>獲得条件</h2>
@@ -53,55 +54,112 @@
 									</thead>
 									<tbody>
 									<tr>
-										<td>0</td>
+										<td>NONE</td>
 										<td>0～99</td>
 										<td>火柱</td>
 									</tr>
 									<tr>
-										<td>1</td>
+										<td>ONE</td>
 										<td>100～199</td>
 										<td>ボーダー</td>
 									</tr>
 									<tr>
-										<td>2</td>
+										<td>TWO</td>
 										<td>200～299</td>
 										<td>青い炎</td>
 									</tr>
 									<tr>
-										<td>3</td>
+										<td>THREE</td>
 										<td>300～399</td>
 										<td>青い波紋</td>
 									</tr>
 									<tr>
-										<td>4</td>
+										<td>FOUR</td>
 										<td>400～499</td>
 										<td>弾ける靄</td>
 									</tr>
 									<tr>
-										<td>5</td>
+										<td>FIVE</td>
 										<td>500～999</td>
 										<td>紫の靄</td>
 									</tr>
 									<tr>
-										<td>6</td>
+										<td>SIX</td>
 										<td>1k～1999</td>
 										<td>1,2,4,5複合</td>
 									</tr>
 									<tr>
-										<td>7</td>
+										<td>SEVEN</td>
 										<td>2k～4999</td>
 										<td>雷と火柱</td>
 									</tr>
 									<tr>
-										<td>8</td>
-										<td>5k～</td>
+										<td>VERTEX</td>
+										<td>4k～</td>
 										<td>ウォーデン</td>
 									</tr>
 									</tbody>
 								</table>
 							</div><br />
 
+							<h2 id="betting-cost">ティア別ベット額</h2>
+							<p>
+								Phasingの使うウェポンのティアによってベット可能額が異なります。<br />
+								ティアTWOまでは一律ベットはできません。
+							</p>
+							<div class="table-wrapper">
+								<table class="alt">
+									<thead>
+									<tr>
+										<th>ティア</th>
+										<th>ベット額</th>
+									</tr>
+									</thead>
+									<tbody>
+									<tr>
+										<td>NONE</td>
+										<td>0</td>
+									</tr>
+									<tr>
+										<td>ONE</td>
+										<td>0</td>
+									</tr>
+									<tr>
+										<td>TWO</td>
+										<td>0</td>
+									</tr>
+									<tr>
+										<td>THREE</td>
+										<td>10～250</td>
+									</tr>
+									<tr>
+										<td>FOUR</td>
+										<td>20～500</td>
+									</tr>
+									<tr>
+										<td>FIVE</td>
+										<td>30～1k</td>
+									</tr>
+									<tr>
+										<td>SIX</td>
+										<td>40～2.5k</td>
+									</tr>
+									<tr>
+										<td>SEVEN</td>
+										<td>50～5k</td>
+									</tr>
+									<tr>
+										<td>VERTEX</td>
+										<td>60～10k</td>
+									</tr>
+									</tbody>
+								</table>
+							</div><br />
+
 							<h2>ウェポン別カラー</h2>
+							<p>
+								ネームタグの横につくマークの色や、ウェポンのバフデバフのパーティクルは以下の色に沿って表現されます。
+							</p>
 							<div class="table-wrapper">
 								<table class="alt">
 									<thead>
@@ -158,6 +216,10 @@
 									<tr>
 										<td><img class="fit small" src="images/weapon/vanisher.png" alt="" /></td>
 										<td><span style="color: rgb(170 170 170)">■</span> §7</td>
+									</tr>
+									<tr>
+										<td><img class="fit small" src="images/weapon/yeti.png" alt="" /></td>
+										<td><span style="color: rgb(255 255 255)">■</span> §f</td>
 									</tr>
 									</tbody>
 								</table>
