@@ -1,17 +1,35 @@
-img.minecraft-item {
-  float: left;
-  margin: -0.2em 0.65em 0 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Stick&family=Dela+Gothic+One&family=Hachi+Maru+Pop&family=Reggae+One&family=RocknRoll+One&display=swap');
+/*
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #101010;
+        color: #cccccc;
+    }
+    h1, h2, h3 {
+        color: #cccccc;
+    }
+    #sidebar, #header, #menu {
+        background-color: #101010;
+        color: #cccccc;
+    }
+    #sidebar > .inner > .alt {
+        background-color: #101010;
+    }
+    #menu ul a, #menu ul a.opener, #menu ul span.opener {
+        color: #cccccc;
+    }
+    #sidebar .toggle:before {
+        color: #cccccc;
+    }
+    #sidebar .toggle:after {
+        background: rgba(16, 16, 16, 0.75);
+    }
+}*/
 
-a.image-link {
-  transition:0.25s;
-  border-style: none;
-}
-a.image-link:hover {
-  opacity:0.5;
-}
 
-video {
-  width: 95%;
-  border-radius: 10px;
+#menu img.minecraft-item-icon {
+    float: left;
+    width: 7%;
+    height: 7%;
+    margin-right: 4px;
 }
