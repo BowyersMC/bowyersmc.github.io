@@ -1,20 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Stick&family=Dela+Gothic+One&family=Hachi+Maru+Pop&family=Reggae+One&family=RocknRoll+One&display=swap');
-
-.f-dela {
-    font-family: 'Dela Gothic One', cursive;
-}
-.f-hachi {
-    font-family: 'Hachi Maru Pop', cursive;
-}
-.f-rockn {
-    font-family: 'RocknRoll One', sans-serif;
-}
-.f-stick {
-    font-family: 'Stick', sans-serif;
-}
-.f-regae {
-    font-family: 'Reggae One', sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&family=Yusei+Magic&display=swap');
 
 h1, h2, h3, h4, .button {
     font-family: 'RocknRoll One', sans-serif;
