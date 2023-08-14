@@ -1,5 +1,8 @@
-function insertMeta(description = '') {
+function insertMeta(home_path = '', description = '') {
     document.write(...[
+        '<link rel="shortcut icon" type="image/x-icon" href="' + home_path + 'favicon.ico">',
+        '<link rel="icon" href="https://avatars.githubusercontent.com/u/107301051?s=200&v=4">',
+        '<link rel="apple-touch-icon" href="https://avatars.githubusercontent.com/u/107301051?s=200&v=4">',
         '<meta name="twitter:card" content="summary" />',
         '<meta name="twitter:site" content="@BowyersMC" />',
         '<meta name="twitter:title" content="BowyersMC" />',
