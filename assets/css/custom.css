@@ -15,8 +15,11 @@
     #sidebar > .inner > .alt {
         background-color: #101010;
     }
-    #menu ul a, #menu ul a.opener, #menu ul span.opener {
+    #menu ul a, #menu ul span.opener {
         color: #cccccc;
+    }
+    #menu > ul > li > ul a, #menu > ul > li > ul span {
+        color: #a8a8a8;
     }
     #sidebar .toggle:before {
         color: #cccccc;
