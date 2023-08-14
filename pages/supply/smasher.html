@@ -13,6 +13,10 @@
 		<link rel="stylesheet" href="../../assets/css/wrapper.css" />
 		<link rel="stylesheet" href="../../assets/css/custom.css" />
 		<link rel="stylesheet" href="../../assets/css/disabled_button.css" />
+		<script src="../../assets/js/template/header.js"></script>
+		<script src="../../assets/js/template/sidebar.js"></script>
+		<script src="../../assets/js/template/meta.js"></script>
+		<script>insertMeta("サプライウェポン「Smasher」")</script>
 	</head>
 	<body class="is-preload">
 
@@ -25,12 +29,7 @@
 
 							<!-- Header -->
 								<header id="header">
-									<a href="../../index.html" class="logo">BowyersMC Website</a>
-									<ul class="icons">
-										<li><a href="https://twitter.com/BowyersMC" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="https://www.youtube.com/@bowyers-mc" class="icon brands fa-youtube"><span class="label">YouTube</span></a></li>
-										<li><a href="https://discord.gg/bVRvSeKfTF" class="icon brands fa-discord"><span class="label">Discord</span></a></li>
-									</ul>
+									<script>insertHeader("../../")</script>
 								</header>
 
 							<!-- Section -->
@@ -70,161 +69,7 @@
 
 				<!-- Sidebar -->
 					<div id="sidebar">
-						<div class="inner">
-
-							<!-- Search -->
-								<section id="search" class="alt">
-									<!--<form method="post" action="#">
-										<input type="text" name="query" id="query" placeholder="Search" />
-									</form>-->
-								</section>
-
-							<!-- Menu -->
-								<nav id="menu">
-									<header class="major">
-										<h2>メニュー</h2>
-									</header>
-									<ul>
-										<li><a href="../../index.html"><i class="icon solid fa-home"></i> ホーム</a></li>
-										<li><a href="../rule.html"><i class="icon solid fa-book"></i> お約束事</a></li>
-										<li><a href="../details.html"><i class="icon solid fa-toolbox"></i> プロジェクト概要</a></li>
-										<li><a href="../staff.html"><i class="icon solid fa-users-cog"></i> 運営メンバー</a></li>
-										<li><a href="../karma.html"><i class="icon solid fa-coins"></i> カルマシステム</a></li>
-										<li>
-											<span class="opener"><i class="icon solid fa-gamepad"></i> ゲームモード</span>
-											<ul>
-												<li><a href="../gamemode/phasing.html">Phasing / フェージング</a></li>
-												<li><a href="../gamemode/rotation.html">Rotation / ローテーション</a></li>
-												<li><a href="../gamemode/killstreak.html">KillStreak / キルストリーク</a></li>
-												<li><a href="../gamemode/squads.html">Squads / スクアッド</a></li>
-												<li><a href="../gamemode/cleaner.html">Cleaner / クリーナー</a></li>
-											</ul>
-										</li>
-										<li>
-											<span class="opener"><i class="icon solid fa-user-secret"></i> イミテイターウェポン</span>
-											<ul>
-												<li><a href="../imitators/airride.html"><img class="minecraft-item-icon" src="../../images/weapon/airride.png" alt="" />Airride / エアライド</a></li>
-												<li><a href="../imitators/bastet.html"><img class="minecraft-item-icon" src="../../images/weapon/bastet.png" alt="" />Bastet / バステト</a></li>
-												<li><a href="../imitators/leaper.html"><img class="minecraft-item-icon" src="../../images/weapon/leaper.png" alt="" />Leaper / リーパー</a></li>
-												<li><a href="../imitators/doping.html"><img class="minecraft-item-icon" src="../../images/weapon/doping.png" alt="" />Doping / ドーピング</a></li>
-												<li><a href="../imitators/haze.html"><img class="minecraft-item-icon" src="../../images/weapon/haze.png" alt="" />Haze / ヘイズ</a></li>
-												<li><a href="../imitators/shock_waver.html"><img class="minecraft-item-icon" src="../../images/weapon/shock_waver.png" alt="" />ShockWaver / ショックウェーバー</a></li>
-												<li><a href="../imitators/parallel.html"><img class="minecraft-item-icon" src="../../images/weapon/parallel.png" alt="" />Parallel / パラレル</a></li>
-												<li><a href="../imitators/shield.html"><img class="minecraft-item-icon" src="../../images/weapon/shield.png" alt="" />Shield / シールド</a></li>
-												<li><a href="../imitators/swapper.html"><img class="minecraft-item-icon" src="../../images/weapon/swapper.png" alt="" />Swapper / スワッパー</a></li>
-												<li><a href="../imitators/vanisher.html"><img class="minecraft-item-icon" src="../../images/weapon/vanisher.png" alt="" />Vanisher / ヴァニッシャー</a></li>
-												<li><a href="../imitators/trapper.html"><img class="minecraft-item-icon" src="../../images/weapon/trapper.png" alt="" />Trapper / トラッパー</a></li>
-												<li><a href="../imitators/spear.html"><img class="minecraft-item-icon" src="../../images/weapon/spear.png" alt="" />Spear / スピアー</a></li>
-												<li><a href="../imitators/yeti.html"><img class="minecraft-item-icon" src="../../images/weapon/yeti.png" alt="" />Yeti / イエティ</a></li>
-												<li><a href="../imitators/twins.html"><img class="minecraft-item-icon" src="../../images/weapon/twins.png" alt="" />Twins / ツインズ</a></li>
-												<li><a href="../imitators/rider.html"><img class="minecraft-item-icon" src="../../images/weapon/rider.png" alt="" />Rider / ライダー</a></li>
-												<li><a href="../imitators/xray.html"><img class="minecraft-item-icon" src="../../images/weapon/xray.png" alt="" />Xray / エクスレイ</a></li>
-												<li><a href="../imitators/chorus.html"><img class="minecraft-item-icon" src="../../images/weapon/chorus.png" alt="" />Chorus / コーラス</a></li>
-												<li><a href="../imitators/herobrine.html"><img class="minecraft-item-icon" src="../../images/weapon/herobrine.png" alt="" />Herobrine / ヘロブライン</a></li>
-												<li><a href="../imitators/steve.html"><img class="minecraft-item-icon" src="../../images/weapon/steve.png" alt="" />Steve / スティーブ</a></li>
-												<li><a href="../imitators/canopy.html"><img class="minecraft-item-icon" src="../../images/weapon/canopy.png" alt="" />Canopy / キャノピー</a></li>
-											</ul>
-										</li>
-										<li>
-											<span class="opener"><i class="icon solid fa-chess-knight"></i> サプライウェポン</span>
-											<ul>
-												<li><a href="../supply/battle_axe.html"><img class="minecraft-item-icon" src="../../images/weapon/battle_axe.png" alt="" />BattleAxe / バトルアックス</a></li>
-												<li><a href="../supply/beam.html"><img class="minecraft-item-icon" src="../../images/weapon/beam.png" alt="" />Beam / ビーム</a></li>
-												<li><a href="../supply/caerus.html"><img class="minecraft-item-icon" src="../../images/weapon/caerus.png" alt="" />Caerus / カイロス</a></li>
-												<li><a href="../supply/gravity.html"><img class="minecraft-item-icon" src="../../images/weapon/gravity.png" alt="" />Gravity / グラヴィティ</a></li>
-												<li><a href="../supply/meteor.html"><img class="minecraft-item-icon" src="../../images/weapon/meteor.png" alt="" />Meteor / メテオ</a></li>
-												<li><a href="../supply/ninja.html"><img class="minecraft-item-icon" src="../../images/weapon/ninja.png" alt="" />Ninja / ニンジャ</a></li>
-												<li><a href="../supply/penetrator.html"><img class="minecraft-item-icon" src="../../images/weapon/penetrator.png" alt="" />Penetrator / ぺネトレーター</a></li>
-												<li><a href="../supply/smasher.html"><img class="minecraft-item-icon" src="../../images/weapon/smasher.png" alt="" />Smasher / スマッシャー</a></li>
-											</ul>
-										</li>
-										<li>
-											<span class="opener"><i class="icon solid fa-layer-group"></i> やりこみ要素</span>
-											<ul>
-												<li><a href="../tier/vertex_imitation.html">Vertex Imitation / 最上位イミテーション</a></li>
-												<li><a href="../tier/kill_particle.html">Kill Particle / キルパーティクル</a></li>
-												<li><a href="../tier/name_tag.html">Name Tag / ネームタグマーク</a></li>
-												<li><a href="../tier/pride.html">Pride / 誇り</a></li>
-											</ul>
-										</li>
-										<li>
-											<span class="opener"><i class="icon solid fa-splotch"></i> デコレーション要素</span>
-											<ul>
-												<li><a href="../decoration/cape.html">Cape / マント</a></li>
-												<li><a href="../decoration/pet.html">Pet / ペット</a></li>
-											</ul>
-										</li>
-										<li>
-											<span class="opener"><i class="icon solid fa-shoe-prints"></i> ムーブメント要素</span>
-											<ul>
-												<li><a href="../movement/wall_bounce.html">Wall bounce / 壁ジャンプ</a></li>
-												<li><a href="../movement/air_curve.html">Air Curve / エアカーブ</a></li>
-												<li><a href="../movement/air_strafe.html">Air Strafe / エアストレイフ</a></li>
-											</ul>
-										</li>
-										<li>
-											<span class="opener"><i class="icon solid fa-street-view"></i> ワールド要素</span>
-											<ul>
-												<li><a href="../world/entry_room.html">Entry Rooms / エントリールーム</a></li>
-												<li><a href="../world/game_arena.html">Game Arenas / ゲームアリーナ</a></li>
-												<li><a href="../world/special_block.html">Special Blocks / 特殊ブロック</a></li>
-											</ul>
-										</li>
-										<li>
-											<span class="opener"><i class="icon solid fa-trophy"></i> ランキング照会</span>
-											<ul>
-												<li><a href="../ranking/phase01.html">PHASE-01</a></li>
-												<li><a href="../ranking/phase02.html">PHASE-02</a></li>
-												<li><a href="../ranking/phase03.html">PHASE-03</a></li>
-												<li><a href="../ranking/phase04.html">PHASE-04</a></li>
-												<li><a href="../ranking/phase05.html">PHASE-05</a></li>
-												<li><a href="../ranking/phase06.html">PHASE-06</a></li>
-												<li><a href="../ranking/phase07.html">PHASE-07</a></li>
-											</ul>
-										</li>
-									</ul>
-								</nav>
-
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>公式PV</h2>
-									</header>
-									<div class="mini-posts">
-										<article>
-											<a href="https://www.youtube.com/watch?v=roAdn4JMKdQ" class="image" target="_blank"><img src="../../images/mini-post/third.jpg" alt="" /></a>
-											<p>created by nnse</p>
-										</article>
-										<article>
-											<a href="https://www.youtube.com/watch?v=v6-EVCq7vCg" class="image" target="_blank"><img src="../../images/mini-post/second.jpg" alt="" /></a>
-											<p>created by aihe</p>
-										</article>
-										<article>
-											<a href="https://www.youtube.com/watch?v=WsCP6V4yDjs" class="image" target="_blank"><img src="../../images/mini-post/first.jpg" alt="" /></a>
-											<p>created by nnse</p>
-										</article>
-									</div>
-								</section>
-
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>連絡</h2>
-									</header>
-									<p>BowyersMCに関係する質問や意見、及びお問い合わせに関しては公式Discordサーバーにてのみ受け付けています。</p>
-									<ul class="contact">
-										<li class="icon brands fa-twitter"><a href="https://twitter.com/BowyersMC">@BowyersMC</a></li>
-										<li class="icon brands fa-discord"><a href="https://discord.gg/bVRvSeKfTF">Official Discord Server</a></li>
-										<li class="icon solid fa-home">External Server "BowyersMC"</li>
-									</ul>
-								</section>
-
-							<!-- Footer -->
-								<footer id="footer">
-									<p class="copyright">&copy; BowyersMC.<br />All rights reserved. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-								</footer>
-
-						</div>
+						<script>insertSidebar("../../")</script>
 					</div>
 
 			</div>
