@@ -8,6 +8,6 @@ function insertMeta(home_path = '', description = '') {
         '    <meta name="twitter:site" content="@BowyersMC" />' + "\n",
         '    <meta name="twitter:title" content="BowyersMC" />' + "\n",
         '    <meta name="twitter:description" content="' + description + '" />' + "\n",
-        '    <meta name="twitter:image" content="https://pbs.twimg.com/profile_images/1560502728945967104/WL_X3SAN_400x400.jpg" /> + "\n'
+        '    <meta name="twitter:image" content="https://pbs.twimg.com/profile_images/1560502728945967104/WL_X3SAN_400x400.jpg" />' + "\n"
     ]);
 }
