@@ -51,6 +51,12 @@
     ul.contact li {
         border-top: solid 1px rgba(45, 45, 45, 0.75);
     }
+    #main > .inner > section {
+        border-top: solid 2px rgba(45, 45, 45, 0.75);
+    }
+    .posts article:before {
+        background: rgba(45, 45, 45, 0.75);
+    }
 }
 
 
