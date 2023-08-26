@@ -39,7 +39,7 @@ function insertSidebar(home_path = '') {
         /*'                        <li><a href="' + home_path + 'pages/imitators/canopy.html"><img class="minecraft-item-icon" src="' + home_path + 'images/weapon/canopy.png" alt="" /> Canopy / キャノピー</a></li>' + "\n" +*/
         '                        <li><a href="' + home_path + 'pages/imitators/chorus.html"><img class="minecraft-item-icon" src="' + home_path + 'images/weapon/chorus.png" alt="" /> Chorus / コーラス</a></li>' + "\n" +
         '                        <li><a href="' + home_path + 'pages/imitators/doping.html"><img class="minecraft-item-icon" src="' + home_path + 'images/weapon/doping.png" alt="" /> Doping / ドーピング</a></li>' + "\n" +
-        /*'                        <li><a href="' + home_path + 'pages/imitators/herobrine.html"><img class="minecraft-item-icon" src="' + home_path + 'images/weapon/herobrine.png" alt="" /> Herobrine / ヘロブライン</a></li>' + "\n" +*/
+        '                        <li><a href="' + home_path + 'pages/imitators/herobrine.html"><img class="minecraft-item-icon" src="' + home_path + 'images/weapon/herobrine.png" alt="" /> Herobrine / ヘロブライン</a></li>' + "\n" +
         '                        <li><a href="' + home_path + 'pages/imitators/haze.html"><img class="minecraft-item-icon" src="' + home_path + 'images/weapon/haze.png" alt="" /> Haze / ヘイズ</a></li>' + "\n" +
         '                        <li><a href="' + home_path + 'pages/imitators/leaper.html"><img class="minecraft-item-icon" src="' + home_path + 'images/weapon/leaper.png" alt="" /> Leaper / リーパー</a></li>' + "\n" +
         '                        <li><a href="' + home_path + 'pages/imitators/parallel.html"><img class="minecraft-item-icon" src="' + home_path + 'images/weapon/parallel.png" alt="" /> Parallel / パラレル</a></li>' + "\n" +
@@ -89,6 +89,7 @@ function insertSidebar(home_path = '') {
         '                      <span class="opener"><i class="icon solid fa-shoe-prints"></i> ムーブメント要素</span>' + "\n" +
         '                      <ul>' + "\n" +
         '                        <li><a href="' + home_path + 'pages/movement/wall_bounce.html">Wall bounce / 壁ジャンプ</a></li>' + "\n" +
+        '                        <li><a href="' + home_path + 'pages/movement/updraft.html">Updraft / アップドラフト</a></li>' + "\n" +
         '                        <li><a href="' + home_path + 'pages/movement/air_curve.html">Air Curve / エアカーブ</a></li>' + "\n" +
         '                        <li><a href="' + home_path + 'pages/movement/air_strafe.html">Air Strafe / エアストレイフ</a></li>' + "\n" +
         '                      </ul>' + "\n" +
