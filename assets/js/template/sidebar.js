@@ -125,15 +125,15 @@ function insertSidebar(home_path = '') {
         '                  </header>' + "\n" +
         '                  <div class="mini-posts">' + "\n" +
         '                    <article>' + "\n" +
-        '                      <a href="' + home_path + 'https://www.youtube.com/watch?v=roAdn4JMKdQ" class="image" target="_blank"><img src="' + home_path + 'images/mini-post/third.jpg" alt="" /></a>' + "\n" +
+        '                      <a href="https://www.youtube.com/watch?v=roAdn4JMKdQ" class="image" target="_blank"><img src="' + home_path + 'images/mini-post/third.jpg" alt="" /></a>' + "\n" +
         '                      <p>created by nnse</p>' + "\n" +
         '                    </article>' + "\n" +
         '                    <article>' + "\n" +
-        '                      <a href="' + home_path + 'https://www.youtube.com/watch?v=v6-EVCq7vCg" class="image" target="_blank"><img src="' + home_path + 'images/mini-post/second.jpg" alt="" /></a>' + "\n" +
+        '                      <a href="https://www.youtube.com/watch?v=v6-EVCq7vCg" class="image" target="_blank"><img src="' + home_path + 'images/mini-post/second.jpg" alt="" /></a>' + "\n" +
         '                      <p>created by aihe</p>' + "\n" +
         '                    </article>' + "\n" +
         '                    <article>' + "\n" +
-        '                      <a href="' + home_path + 'https://www.youtube.com/watch?v=WsCP6V4yDjs" class="image" target="_blank"><img src="' + home_path + 'images/mini-post/first.jpg" alt="" /></a>' + "\n" +
+        '                      <a href="https://www.youtube.com/watch?v=WsCP6V4yDjs" class="image" target="_blank"><img src="' + home_path + 'images/mini-post/first.jpg" alt="" /></a>' + "\n" +
         '                      <p>created by nnse</p>' + "\n" +
         '                    </article>' + "\n" +
         '                  </div>' + "\n" +
