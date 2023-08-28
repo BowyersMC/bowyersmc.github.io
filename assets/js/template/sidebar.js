@@ -100,6 +100,7 @@ function insertSidebar(home_path = '') {
         '                        <li><a href="' + home_path + 'pages/world/entry_room.html">Entry Rooms / エントリールーム</a></li>' + "\n" +
         '                        <li><a href="' + home_path + 'pages/world/game_arena.html">Game Arenas / ゲームアリーナ</a></li>' + "\n" +
         '                        <li><a href="' + home_path + 'pages/world/special_block.html">Special Blocks / 特殊ブロック</a></li>' + "\n" +
+        '                        <li><a href="' + home_path + 'pages/world/special_entity.html">Special Entities / 特殊エンティティ</a></li>' + "\n" +
         '                      </ul>' + "\n" +
         '                    </li>' + "\n" +
         '                    <li>' + "\n" +
