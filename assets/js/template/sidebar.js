@@ -113,6 +113,7 @@ function insertSidebar(home_path = '') {
         '                        <li><a href="' + home_path + 'pages/ranking/phase05.html">PHASE-05</a></li>' + "\n" +
         '                        <li><a href="' + home_path + 'pages/ranking/phase06.html">PHASE-06</a></li>' + "\n" +
         '                        <li><a href="' + home_path + 'pages/ranking/phase07.html">PHASE-07</a></li>' + "\n" +
+        '                        <li><a href="' + home_path + 'pages/ranking/phase08.html">PHASE-08</a></li>' + "\n" +
         '                      </ul>' + "\n" +
         '                    </li>' + "\n" +
         '                  </ul>' + "\n" +
