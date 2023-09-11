@@ -57,6 +57,9 @@
     .posts article:before {
         background: rgba(45, 45, 45, 0.75);
     }
+    .posts article:after {
+        background: rgba(45, 45, 45, 0.75);
+    }
 }
 
 
