@@ -47,7 +47,7 @@ function insertSidebar(home_path = '') {
         '                        <li><a href="' + home_path + 'pages/imitators/shield.html"><img class="minecraft-item-icon" src="' + home_path + 'images/weapon/shield.png" alt="" /> Shield / シールド</a></li>' + "\n" +
         '                        <li><a href="' + home_path + 'pages/imitators/shock_waver.html"><img class="minecraft-item-icon" src="' + home_path + 'images/weapon/shock_waver.png" alt="" /> ShockWaver / ショックウェーバー</a></li>' + "\n" +
         '                        <li><a href="' + home_path + 'pages/imitators/spear.html"><img class="minecraft-item-icon" src="' + home_path + 'images/weapon/spear.png" alt="" /> Spear / スピアー</a></li>' + "\n" +
-        /*'                        <li><a href="' + home_path + 'pages/imitators/steve.html"><img class="minecraft-item-icon" src="' + home_path + 'images/weapon/steve.png" alt="" /> Steve / スティーブ</a></li>' + "\n" +*/
+        '                        <li><a href="' + home_path + 'pages/imitators/steve.html"><img class="minecraft-item-icon" src="' + home_path + 'images/weapon/steve.png" alt="" /> Steve / スティーブ</a></li>' + "\n" +
         '                        <li><a href="' + home_path + 'pages/imitators/swapper.html"><img class="minecraft-item-icon" src="' + home_path + 'images/weapon/swapper.png" alt="" /> Swapper / スワッパー</a></li>' + "\n" +
         '                        <li><a href="' + home_path + 'pages/imitators/trapper.html"><img class="minecraft-item-icon" src="' + home_path + 'images/weapon/trapper.png" alt="" /> Trapper / トラッパー</a></li>' + "\n" +
         '                        <li><a href="' + home_path + 'pages/imitators/twins.html"><img class="minecraft-item-icon" src="' + home_path + 'images/weapon/twins.png" alt="" /> Twins / ツインズ</a></li>' + "\n" +
@@ -114,6 +114,7 @@ function insertSidebar(home_path = '') {
         '                        <li><a href="' + home_path + 'pages/ranking/phase06.html">PHASE-06</a></li>' + "\n" +
         '                        <li><a href="' + home_path + 'pages/ranking/phase07.html">PHASE-07</a></li>' + "\n" +
         '                        <li><a href="' + home_path + 'pages/ranking/phase08.html">PHASE-08</a></li>' + "\n" +
+        '                        <li><a href="' + home_path + 'pages/ranking/phase09.html">PHASE-09</a></li>' + "\n" +
         '                      </ul>' + "\n" +
         '                    </li>' + "\n" +
         '                  </ul>' + "\n" +
