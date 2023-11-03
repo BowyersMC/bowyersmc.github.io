@@ -36,7 +36,7 @@ function insertSidebar(home_path = '') {
         '                      <ul>' + "\n" +
         '                        <li><a href="' + home_path + 'pages/imitators/airride.html"><img class="minecraft-item-icon" src="' + home_path + 'images/weapon/airride.png" alt="" /> Airride / エアライド</a></li>' + "\n" +
         '                        <li><a href="' + home_path + 'pages/imitators/bastet.html"><img class="minecraft-item-icon" src="' + home_path + 'images/weapon/bastet.png" alt="" /> Bastet / バステト</a></li>' + "\n" +
-        /*'                        <li><a href="' + home_path + 'pages/imitators/canopy.html"><img class="minecraft-item-icon" src="' + home_path + 'images/weapon/canopy.png" alt="" /> Canopy / キャノピー</a></li>' + "\n" +*/
+        '                        <li><a href="' + home_path + 'pages/imitators/canopy.html"><img class="minecraft-item-icon" src="' + home_path + 'images/weapon/canopy.png" alt="" /> Canopy / キャノピー</a></li>' + "\n" +
         '                        <li><a href="' + home_path + 'pages/imitators/chorus.html"><img class="minecraft-item-icon" src="' + home_path + 'images/weapon/chorus.png" alt="" /> Chorus / コーラス</a></li>' + "\n" +
         '                        <li><a href="' + home_path + 'pages/imitators/doping.html"><img class="minecraft-item-icon" src="' + home_path + 'images/weapon/doping.png" alt="" /> Doping / ドーピング</a></li>' + "\n" +
         '                        <li><a href="' + home_path + 'pages/imitators/herobrine.html"><img class="minecraft-item-icon" src="' + home_path + 'images/weapon/herobrine.png" alt="" /> Herobrine / ヘロブライン</a></li>' + "\n" +
