@@ -63,7 +63,7 @@ function insertSidebar(home_path = '') {
         '                        <li><a href="' + home_path + 'pages/supply/beam.html"><img class="minecraft-item-icon" src="' + home_path + 'images/weapon/beam.png" alt="" /> Beam / ビーム</a></li>' + "\n" +
         '                        <li><a href="' + home_path + 'pages/supply/caerus.html"><img class="minecraft-item-icon" src="' + home_path + 'images/weapon/caerus.png" alt="" /> Caerus / カイロス</a></li>' + "\n" +
         '                        <li><a href="' + home_path + 'pages/supply/gravity.html"><img class="minecraft-item-icon" src="' + home_path + 'images/weapon/gravity.png" alt="" /> Gravity / グラヴィティ</a></li>' + "\n" +
-        /*'                        <li><a href="' + home_path + 'pages/supply/meteor.html"><img class="minecraft-item-icon" src="' + home_path + 'images/weapon/meteor.png" alt="" /> Meteor / メテオ</a></li>' + "\n" +*/
+        '                        <li><a href="' + home_path + 'pages/supply/meteor.html"><img class="minecraft-item-icon" src="' + home_path + 'images/weapon/meteor.png" alt="" /> Meteor / メテオ</a></li>' + "\n" +
         '                        <li><a href="' + home_path + 'pages/supply/ninja.html"><img class="minecraft-item-icon" src="' + home_path + 'images/weapon/ninja.png" alt="" /> Ninja / ニンジャ</a></li>' + "\n" +
         '                        <li><a href="' + home_path + 'pages/supply/penetrator.html"><img class="minecraft-item-icon" src="' + home_path + 'images/weapon/penetrator.png" alt="" /> Penetrator / ぺネトレーター</a></li>' + "\n" +
         '                        <li><a href="' + home_path + 'pages/supply/smasher.html"><img class="minecraft-item-icon" src="' + home_path + 'images/weapon/smasher.png" alt="" /> Smasher / スマッシャー</a></li>' + "\n" +
