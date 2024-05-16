@@ -40,10 +40,24 @@
 							<!-- Section -->
 							<section>
 								<header class="main">
-									<h1>Chapter01</h1>
+									<h1>Chapter-01</h1>
 								</header>
-								<span class="image main"><img src="../images/post/post_crushers.png" alt="" /></span>
 
+								<span class="image main"><img src="../images/post/post_steve.png" alt="" /></span>
+
+								<p>
+									プロジェクトの発足から11回のフェーズを経て、擬態科学の研究が落ち着きはじめていた頃のお話。<br /><br />
+									スティーブは自身がクラフトテーブルによって生み出した緑ガラスに、自分だけが扱える特殊な細工を施した。<br />
+									「その緑ガラスの性質を全てのブロックに適応させる」と脅し、擬態科学の人間に自身の状態維持能力を高めさせた。<br />
+									その状態維持能力をスティーブは違う言葉で表現する。「永続する変化」と。<br /><br />
+									ヘロブラインが過去にすべてのイミテイターからエアストレイフの発動プロファイルを奪い去った事件から半年ほど経過したこの隙を狙った犯行である。<br />
+									罠師のように礼節持ったヒューマンもいるが、やはりこの2人には警戒しないといけない。いつかすべてのキャラコンを盗まれてしまうから。<br />
+								</p>
+								<a href="../pages/imitators/steve.html" class="button">イミテイター解説ページへ移動</a>
+
+								<hr class="major" />
+
+								<span class="image main"><img src="../images/post/post_crushers.png" alt="" /></span>
 								<p>
 									姉妹鯖であるImitatorsMCのプロジェクト閉鎖を受けて、開発元は二者の共存を目指して能力の移植に取り組んできました。<br />
 									その一つとしてTwinsの自動歩行はImitatorsMCのIllusionを受け継いだものとなっています。<br />
@@ -59,10 +73,20 @@
 								<h2>各種イミテイターの調整</h2>
 								<div class="row">
 									<div class="col-4 col-12-medium">
+										<h3>Steve / スティーブ</h3>
+										<span class="image fit"><img src="../images/imitator/steve.png" alt="" ></span>
+										<ul>
+											<li>緑ガラスに対する壁キックの腹減りを消しました。</li>
+											<li>破壊で緑ガラスを回収できるようにしました。</li>
+											<li>クールタイムを4秒減少させました。</li>
+											<li>効果時間を9秒増加させました。</li>
+										</ul>
+									</div>
+									<div class="col-4 col-12-medium">
 										<h3>Vanisher / ヴァニッシャー</h3>
 										<span class="image fit"><img src="../images/imitator/vanisher.png" alt="" ></span>
 										<ul>
-											<li>透明化の時間を1秒間増加しました。</li>
+											<li>透明化の時間を1秒増加させました。</li>
 										</ul>
 									</div>
 									<div class="col-4 col-12-medium">
@@ -77,10 +101,20 @@
 										<h3>Xray / エクスレイ</h3>
 										<span class="image fit"><img src="../images/imitator/xray.png" alt="" ></span>
 										<ul>
-											<li>ブロック透明化が損なわれるバグを修正しました。</li>
+											<li>ブロック透明化が損なわれる問題を修正しました。</li>
+										</ul>
+									</div>
+									<div class="col-4 col-12-medium">
+										<h3>Chorus / コーラス</h3>
+										<span class="image fit"><img src="../images/imitator/chorus.png" alt="" ></span>
+										<ul>
+											<li>CTを5秒減少させました。</li>
+											<li>効果時間を1秒増加させました。</li>
 										</ul>
 									</div>
 								</div><br />
+
+								<hr class="major" />
 
 								<h2>各種サプライの調整</h2>
 								<div class="row">
@@ -100,6 +134,40 @@
 											<li>爆破範囲を半分にしました。</li>
 											<li>CTを3秒減少させました。</li>
 										</ul>
+									</div>
+								</div>
+
+								<hr class="major" />
+
+								<h2>変更要素</h2>
+								<div class="row">
+									<div class="col-4 col-8-medium">
+										<h3>無駄なワールド生成を削除</h3>
+										<p>延長戦のないモードでも常に延長戦ワールドを読み込んでいたことが負荷の要因であったと推測したため削除しました。</p>
+									</div>
+									<div class="col-4 col-8-medium">
+										<h3>ワールド生成ラグの軽減</h3>
+										<p>エントリーワールド含めすべてのワールドを同時に生成していたことが負荷の要因であったと推測したため修正しました。</p>
+									</div>
+									<div class="col-4 col-8-medium">
+										<h3>エントリー処理の調整</h3>
+										<p>Clerkを殴った時に周りのユーザーに干渉しないようにサイズを少し大きくしたほか、吹っ飛ばすようにしました。</p>
+									</div>
+									<div class="col-4 col-8-medium">
+										<h3>夜マップを削除</h3>
+										<p>スワッパーなど、暗いスキンが見えづらいため削除して朝と夕方の時間帯に変更しました。</p>
+									</div>
+									<div class="col-4 col-8-medium">
+										<h3>人数分散処理</h3>
+										<p>10人以上参加者が出た場合、参加者の半数をマッチング人数にする設定を導入しました。</p>
+									</div>
+									<div class="col-4 col-8-medium">
+										<h3>ギャンブルの最適化</h3>
+										<p>賭けた人もカルマの奪取を行えるように変更しました。</p>
+									</div>
+									<div class="col-4 col-8-medium">
+										<h3>ランダム設定の修正</h3>
+										<p>イミテイターウェポンのランダム設定がエントリールームでうまく適応されない問題を修正しました。</p>
 									</div>
 								</div>
 
