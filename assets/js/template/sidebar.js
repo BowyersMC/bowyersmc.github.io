@@ -21,7 +21,7 @@ function insertSidebar(home_path = '') {
         '                    <li><a href="' + home_path + 'pages/details.html"><i class="icon solid fa-toolbox"></i> プロジェクト概要</a></li>' + "\n" +
         '                    <li><a href="' + home_path + 'pages/staff.html"><i class="icon solid fa-users-cog"></i> 運営メンバー</a></li>' + "\n" +
         '                    <li><a href="' + home_path + 'pages/karma.html"><i class="icon solid fa-coins"></i> カルマシステム</a></li>' + "\n" +
-        '                    <li><a href="' + home_path + 'tracker/tracker.html"><i class="icon solid fa-chart-pie"></i> BMC Tracker</a></li>' + "\n" +
+        '                    <li><a href="' + home_path + 'tracker.html"><i class="icon solid fa-chart-pie"></i> BMC Tracker</a></li>' + "\n" +
         '                    <li>' + "\n" +
         '                      <span class="opener"><i class="icon solid fa-gamepad"></i> ゲームモード</span>' + "\n" +
         '                      <ul>' + "\n" +

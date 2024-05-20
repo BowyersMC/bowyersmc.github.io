@@ -1,3 +1,3 @@
 $('#search-player').on('click', function(){
-    window.location.href = 'player.html?name=' + $('#gamertag').val();
+    window.location.href = 'tracker/player.html?name=' + $('#gamertag').val();
 });
