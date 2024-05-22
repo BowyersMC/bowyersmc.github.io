@@ -14,6 +14,8 @@ $(function(){
             printImitatorTiers(kills);
             printImitatorKWs(kills, data['wins']);
             printPrides(data['prides']);
+            printCapes(data['cape']);
+            printPets(data['pet']);
             printDetails(data);
         })
 });
@@ -100,6 +102,44 @@ function printPrides(prides) {
     });
     pride_text.push('                </ul>');
     $('.player-prides').html(pride_text.join('\n'));
+}
+
+function printCapes(capes) {
+    let cape_text = [];
+    cape_text.push('                <div class="row">');
+    capes.forEach(cape => {
+        let cape_name_pascal = cape
+            .split('_')
+            .map(w => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase())
+            .join('');
+        cape_text.push('                    <div class="col-1 col-2">');
+        cape_text.push('                        <span class="image tooltip">');
+        cape_text.push('                            <img class="minecraft-stamp" src="../images/cape/icon/' + cape + '.png" alt="" >');
+        cape_text.push('                            <span class="description_top">' + cape_name_pascal + '</span>');
+        cape_text.push('                        </span>');
+        cape_text.push('                    </div>');
+    });
+    cape_text.push('                </div>');
+    $('.player-capes').html(cape_text.join('\n'));
+}
+
+function printPets(pets) {
+    let pet_text = [];
+    pet_text.push('                <div class="row">');
+    pets.forEach(pet => {
+        let pet_name_pascal = pet
+            .split('_')
+            .map(w => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase())
+            .join('');
+        pet_text.push('                    <div class="col-1 col-2">');
+        pet_text.push('                        <span class="image tooltip">');
+        pet_text.push('                            <img class="minecraft-stamp" src="../images/pet/icon/' + pet + '.png" alt="" >');
+        pet_text.push('                            <span class="description_top">' + pet_name_pascal + '</span>');
+        pet_text.push('                        </span>');
+        pet_text.push('                    </div>');
+    });
+    pet_text.push('                </div>');
+    $('.player-pets').html(pet_text.join('\n'));
 }
 
 function printDetails(data) {
