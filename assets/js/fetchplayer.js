@@ -4,6 +4,7 @@ $(function(){
     let gamer_tag = decodeURIComponent(value[1]);
     $.ajax({
         url:'https://45.76.52.57:5000/player?name=' + gamer_tag,
+        xhrFields: {withCredentials: true},
         method:'POST',
         dataType:'json'
     })

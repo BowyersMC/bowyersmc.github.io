@@ -22,6 +22,7 @@ $(function(){
     }
     $.ajax({
         url:'https://45.76.52.57:5000/ranking?type=' + ranking_type,
+        xhrFields: {withCredentials: true},
         method:'POST',
         dataType:'json'
     })
