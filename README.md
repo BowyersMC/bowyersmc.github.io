@@ -1,7 +1,7 @@
-# PicWarehouse
+# 画像置き場
 ### staffs
 - (Yaw, Pitch) = (45, 21)
 - Head Only
 - Flat
-- Include Hair
+- Include Hair  
 https://mchorse.github.io/mchead/
