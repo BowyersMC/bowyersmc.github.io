@@ -1,0 +1,5 @@
+https://mchorse.github.io/mchead/
+(Yaw, Pitch) = (45, 21)
+Head Only
+Flat
+Include Hair  
