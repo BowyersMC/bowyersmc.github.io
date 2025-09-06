@@ -1,0 +1,145 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="ja">
+	<head>
+		<title>BowyersMC</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<link rel="stylesheet" href="../assets/css/wrapper.css" />
+		<link rel="stylesheet" href="../assets/css/custom.css" />
+		<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
+		<link rel="icon" href="https://avatars.githubusercontent.com/u/107301051?s=200&v=4">
+		<link rel="apple-touch-icon" href="https://avatars.githubusercontent.com/u/107301051?s=200&v=4">
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:site" content="@BowyersMC" />
+		<meta name="twitter:title" content="BowyersMC" />
+		<meta name="twitter:description" content="確認済みの問題と調整予定" />
+		<meta name="twitter:image" content="https://pbs.twimg.com/profile_images/1560502728945967104/WL_X3SAN_400x400.jpg" />
+		<script src="../assets/js/template/header.js"></script>
+		<script src="../assets/js/template/sidebar.js"></script>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<script>insertHeader("../")</script>
+								</header>
+
+							<!-- Section -->
+							<section>
+								<header class="main">
+									<h1>確認済みの問題と調整予定</h1>
+								</header>
+
+								<span class="image main"><img src="https://raw.githubusercontent.com/BowyersMC/bowyersmc.github.io/wiki/images/post/about-bugs-and-plan.png" alt="" /></span>
+
+								<p>
+									お問い合わせでいただくことが多い一部サーバー内で感じられるバグのようなものをこちらでまとめておこうと思います。ついでと言ってはなんですが、イミテイターの調整に関する暫定情報も添えておこうかなと思います。
+								</p>
+								
+								<hr class="major" />
+
+								<h2>ラグについて</h2>
+								BowyersMCは、ゲームをサーバーごとに分散させてラグを軽減させるような大掛かりなことを一切していません。<br />
+								基本的にHypixelやHiveMCなどの大型サーバーは分散処理をして、別セッションのゲームに影響を与えないようにしていますが、BowyersMCはそれを見越した設計をしていないため「鯖内で複数セッションが立ち上がる」状態になります。<br />
+								これにより、サーバー内でワールドをロードする際に生じるラグが同一の鯖で開かれているすべての世界に影響を及ぼしてしまい、「特殊ブロックの反応に遅延が起きる」「特殊ブロックの判定が2回ほど発生する」などの現象がおこります。<br />
+								申し訳ありませんが、これらの問題に関してはサーバーのシステムを根本から変えていく必要があるため、今から作業に取り掛かることは絶対にしません。<br />
+								BowyersMCは初めから「純粋に遊び感覚（ミニゲーム感覚）のゲームシステム」として実装しているため、「本気でキルレを気にしたり、平均キル数を気にするようなサーバー」ではありません。これらの私が掲げるBowyersMCの在り方を考えたうえでこの「分散処理をしない簡単な設計」を選んでいます。<br />
+								ラグに対してストレスを抱えすぎたり、このラグで起こる現象で不快感を多く感じてしまう方はどうか無理はせず参加を控えたり、休憩を挟むなどしてくださるようお願いします。
+								<br /><br />
+
+								<hr class="major" />
+
+								<h2>イミテイター</h2>
+								<p>
+									約20種類にも及ぶイミテイターの調整をこれまでしてきましたが、100%平等な能力調整を実現させることは不可能です。<br />
+									その中でも現在話し合いで確定したイミテイターの調整予定を以下に折り畳みでまとめました。
+								</p>
+								<details>
+									<summary>Bastet</summary>
+									<span class="image fit"><img src="https://raw.githubusercontent.com/BowyersMC/bowyersmc.github.io/wiki/images/imitator/bastet.png" alt="" ></span>
+									<p>
+										実装当初とたいして性能にリワークが加わっていない単純な能力を持つイミテイターです。<br />
+										ブースト後の移動速度上昇エフェクトの効果が一時期弱体化され、さらに現在はそれが失われる弱体化がされました。<br />
+										過去には弱体化の半面、ダイヤブロックの加速度倍率が全イミテイター屈指の値になる強化※1も入りました。加えて、ブースト発動座標にサウンドを流すデバフをしました。<br />
+										しかし、上記のサウンドのデバフは何の効力もなさず、一瞬で敵へ詰めることができてしまいます。<br />
+										さらに常設されたエメラルドブロックと併用することによる転移系を凌ぐ長距離瞬時移動も現在残り続けている問題のひとつです。<br />
+										移動速度上昇というのはそもそもそれだけでも対象のエイムをずらす手助けにもなる能力です。一瞬で無音で近づいてくる時点で、全イミテイター屈指の最強能力であることは自明です。<br />
+										猫が鳴く音は使用者には聞こえています。おそらくそれが使われた側と使う側で感じるストレスのギャップでしょう。<br />
+										これらの要素を加味したうえで、類似する移動速度上昇の能力を持つDopingやその他購入ウェポンを買う「必要性」がないこともこのピック率に影響していることを考慮し、調整をする必要性があります。<br />
+										過去のAirrideのリワークは、「初心者が使いやすいことと公平性をもった能力へする」ことを掲げました。Bastetは「初期イミテイターに見合った能力へ」を掲げてリワークではなく調整をすることが決定しました。<br /><br />
+										※1: 強化されたBastetのダイヤブロック横方向加速度倍率は、通常値の1.6倍に相当します。根本的に考えて横移動に強すぎている。
+									</p>
+								</details><br />
+								<details>
+									<summary>Canopy</summary>
+									<span class="image fit"><img src="https://raw.githubusercontent.com/BowyersMC/bowyersmc.github.io/wiki/images/imitator/canopy.png" alt="" ></span>
+									<p>
+										実装当初から調整や弱体化がまったく入っていないエリトラ使用の移動系イミテイターです。<br />
+										Canopyには重すぎるクールタイムの制約を持たせる代わりに凄まじい距離の空中移動を与えていました。<br />
+										しかし、背を向けているイミテイターに対して一方的に空中から詰めながら狭いヒットボックスで矢を撃ち続ける能力が極めて強く、着地後も滑空状態になることでヒットボックスを変えられてしまうことが、対面するイミテイターに圧倒的なストレスを与えていました。<br />
+										購入イミテイターとしてそれなりの強さを備えることは大切なことですが、このヒットボックスの変化というのは明らかに撃ち合いにおいて有利になりすぎます。<br />
+										さらに、上からの攻撃を回避するために入り組んだ場所へ逃げ込む動きが多く見られますが、Canopyの滑空状態であれば緩やかな状態でも「ヒットボックスが小さい状態で」接近できるという強みがあります。<br />
+										これらの点から、間接的にですがヒットボックスに関係する部分を修正する必要があると決まりました。
+									</p>
+								</details><br />
+								<details>
+									<summary>Parallel</summary>
+									<span class="image fit"><img src="https://raw.githubusercontent.com/BowyersMC/bowyersmc.github.io/wiki/images/imitator/parallel.png" alt="" ></span>
+									<p>
+										Parallelはテレポート能力を持つエンダーマンをコンセプトとした転移系を代表するイミテイターです。<br />
+										オマージュ元であるArtemis鯖の「アリバイ」という能力を参考にした能力設計の元、距離制限がない転移系の代名詞ともいえる能力で実装しました。<br />
+										あまりにも強いことから、移動後に硬直が加わるデバフが追加されて以来、何一つとして強化やデバフがない状態でした。<br />
+										全転移系のイミテイターがもっていた「テレポート先がうっすら残影でバレてしまう」問題を解消することが決定したほか、特殊な能力を追加で持たせることでピック率の上昇を狙う予定です。
+									</p>
+								</details><br />
+								<details>
+									<summary>Swapper</summary>
+									<span class="image fit"><img src="https://raw.githubusercontent.com/BowyersMC/bowyersmc.github.io/wiki/images/imitator/swapper.png" alt="" ></span>
+									<p>
+										SwapperはWitchの弟子として参戦した、対象との座標を入れ替える能力のみを持つシンプルなイミテイターです。<br />
+										こちらもParallel同様に「テレポート先がうっすら残影でバレてしまう」という問題があり、そちらを直すことが決定しました。<br />
+										そのほかにも利便性向上の観点で微妙な調整を加えることが決定してます。
+									</p>
+								</details><br />
+								<details>
+									<summary>Chorus</summary>
+									<span class="image fit"><img src="https://raw.githubusercontent.com/BowyersMC/bowyersmc.github.io/wiki/images/imitator/chorus.png" alt="" ></span>
+									<p>
+										Chorusはシュルカーの座標へテレポートする能力を持つイミテイターです。<br />
+										Parallel同様に「テレポート先がうっすら残影でバレてしまう」問題を解消することが決定したほか、特殊な能力を追加で持たせることでピック率の上昇を狙う予定です。
+									</p>
+								</details><br />
+
+							</section>
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<script>insertSidebar("../")</script>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>
