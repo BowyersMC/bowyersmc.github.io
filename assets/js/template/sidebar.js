@@ -103,53 +103,18 @@ function insertSidebar(home_path = '') {
         '                        <li><a href="' + home_path + 'pages/world/special_entity.html">Special Entities / 特殊エンティティ</a></li>' + "\n" +
         '                      </ul>' + "\n" +
         '                    </li>' + "\n" +
-        '                    <li>' + "\n" +
-        '                      <span class="opener"><i class="icon solid fa-trophy"></i> ランキング照会</span>' + "\n" +
-        '                      <ul>' + "\n" +
-        '                        <li><a href="' + home_path + 'pages/ranking/phase01.html">PHASE-01</a></li>' + "\n" +
-        '                        <li><a href="' + home_path + 'pages/ranking/phase02.html">PHASE-02</a></li>' + "\n" +
-        '                        <li><a href="' + home_path + 'pages/ranking/phase03.html">PHASE-03</a></li>' + "\n" +
-        '                        <li><a href="' + home_path + 'pages/ranking/phase04.html">PHASE-04</a></li>' + "\n" +
-        '                        <li><a href="' + home_path + 'pages/ranking/phase05.html">PHASE-05</a></li>' + "\n" +
-        '                        <li><a href="' + home_path + 'pages/ranking/phase06.html">PHASE-06</a></li>' + "\n" +
-        '                        <li><a href="' + home_path + 'pages/ranking/phase07.html">PHASE-07</a></li>' + "\n" +
-        '                        <li><a href="' + home_path + 'pages/ranking/phase08.html">PHASE-08</a></li>' + "\n" +
-        '                        <li><a href="' + home_path + 'pages/ranking/phase09.html">PHASE-09</a></li>' + "\n" +
-        '                      </ul>' + "\n" +
-        '                    </li>' + "\n" +
         '                  </ul>' + "\n" +
         '                </nav>' + "\n" +
         '' + "\n" +
         '              <!-- Section -->' + "\n" +
         '                <section>' + "\n" +
         '                  <header class="major">' + "\n" +
-        '                    <h2>公式PV</h2>' + "\n" +
-        '                  </header>' + "\n" +
-        '                  <div class="mini-posts">' + "\n" +
-        '                    <article>' + "\n" +
-        '                      <a href="https://www.youtube.com/watch?v=roAdn4JMKdQ" class="image" target="_blank"><img src="' + image_url + 'third.jpg" alt="" /></a>' + "\n" +
-        '                      <p>created by nnse</p>' + "\n" +
-        '                    </article>' + "\n" +
-        '                    <article>' + "\n" +
-        '                      <a href="https://www.youtube.com/watch?v=v6-EVCq7vCg" class="image" target="_blank"><img src="' + image_url + 'second.jpg" alt="" /></a>' + "\n" +
-        '                      <p>created by aihe</p>' + "\n" +
-        '                    </article>' + "\n" +
-        '                    <article>' + "\n" +
-        '                      <a href="https://www.youtube.com/watch?v=WsCP6V4yDjs" class="image" target="_blank"><img src="' + image_url + 'first.jpg" alt="" /></a>' + "\n" +
-        '                      <p>created by nnse</p>' + "\n" +
-        '                    </article>' + "\n" +
-        '                  </div>' + "\n" +
-        '                </section>' + "\n" +
-        '' + "\n" +
-        '              <!-- Section -->' + "\n" +
-        '                <section>' + "\n" +
-        '                  <header class="major">' + "\n" +
         '                    <h2>連絡</h2>' + "\n" +
         '                  </header>' + "\n" +
-        '                  <p>BowyersMCに関係する質問や意見、及びお問い合わせに関しては公式Discordサーバーにてのみ受け付けています。</p>' + "\n" +
+        '                  <p>BowyersMCに関係する質問や意見、及びお問い合わせに関してはDiscordサーバーにてのみ受け付けています。</p>' + "\n" +
         '                  <ul class="contact">' + "\n" +
-        '                    <li class="icon brands fa-twitter"><a href="' + home_path + 'https://twitter.com/BowyersMC">@BowyersMC</a></li>' + "\n" +
-        '                    <li class="icon brands fa-discord"><a href="' + home_path + 'https://discord.gg/bVRvSeKfTF">Official Discord Server</a></li>' + "\n" +
+        '                    <li class="icon brands fa-twitter"><s>@BowyersMC</s></li>' + "\n" +
+        '                    <li class="icon brands fa-discord"><s>Discord Server</s></li>' + "\n" +
         '                    <li class="icon solid fa-home">External Server "BowyersMC"</li>' + "\n" +
         '                  </ul>' + "\n" +
         '                </section>' + "\n" +
