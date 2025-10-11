@@ -30,6 +30,7 @@ function insertSidebar(home_path = '') {
         '                      <span class="opener"><i class="icon solid fa-user-secret"></i> イミテイターウェポン</span>' + "\n" +
         '                      <ul>' + "\n" +
         '                        <li><a href="' + home_path + 'pages/imitators/airride.html"><img class="minecraft-item-icon" src="' + image_url + 'weapon/airride.png" alt="" /> Airride / エアライド</a></li>' + "\n" +
+        '                        <li><a href="' + home_path + 'pages/imitators/army.html"><img class="minecraft-item-icon" src="' + image_url + 'weapon/army.png" alt="" /> Army / アーミー</a></li>' + "\n" +
         '                        <li><a href="' + home_path + 'pages/imitators/bastet.html"><img class="minecraft-item-icon" src="' + image_url + 'weapon/bastet.png" alt="" /> Bastet / バステト</a></li>' + "\n" +
         '                        <li><a href="' + home_path + 'pages/imitators/canopy.html"><img class="minecraft-item-icon" src="' + image_url + 'weapon/canopy.png" alt="" /> Canopy / キャノピー</a></li>' + "\n" +
         '                        <li><a href="' + home_path + 'pages/imitators/chorus.html"><img class="minecraft-item-icon" src="' + image_url + 'weapon/chorus.png" alt="" /> Chorus / コーラス</a></li>' + "\n" +
