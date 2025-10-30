@@ -72,7 +72,6 @@ function insertSidebar(home_path = '') {
         '                    <li>' + "\n" +
         '                      <span class="opener"><i class="icon solid fa-layer-group"></i> やりこみ要素</span>' + "\n" +
         '                      <ul>' + "\n" +
-        '                        <li><a href="' + home_path + 'pages/tier/vertex_imitation.html">Vertex Imitation / 最上位イミテーション</a></li>' + "\n" +
         '                        <li><a href="' + home_path + 'pages/tier/kill_particle.html">Kill Particle / キルパーティクル</a></li>' + "\n" +
         '                        <li><a href="' + home_path + 'pages/tier/name_tag.html">Name Tag / ネームタグマーク</a></li>' + "\n" +
         '                        <li><a href="' + home_path + 'pages/tier/pride.html">Pride / 誇り</a></li>' + "\n" +
