@@ -23,11 +23,12 @@ function insertSidebar(home_path = '') {
         '                        <li><a href="' + home_path + 'pages/gamemode/killstreak.html">KillStreak / キルストリーク</a></li>' + "\n" +
         '                        <li><a href="' + home_path + 'pages/gamemode/squads.html">Squads / スクアッド</a></li>' + "\n" +
         '                        <li><a href="' + home_path + 'pages/gamemode/versus.html">Versus / バーサス</a></li>' + "\n" +
+        '                        <li><a href="' + home_path + 'pages/gamemode/nether.html">Nether / ネザー</a></li>' + "\n" +
         '                        <li><a href="' + home_path + 'pages/gamemode/cleaner.html">Cleaner / クリーナー</a></li>' + "\n" +
         '                      </ul>' + "\n" +
         '                    </li>' + "\n" +
         '                    <li>' + "\n" +
-        '                      <span class="opener"><i class="icon solid fa-user-secret"></i> イミテイターウェポン</span>' + "\n" +
+        '                      <span class="opener"><i class="icon solid fa-user-secret"></i> イミテイター</span>' + "\n" +
         '                      <ul>' + "\n" +
         '                        <li><a href="' + home_path + 'pages/imitators/airride.html"><img class="minecraft-item-icon" src="' + image_url + 'weapon/airride.png" alt="" /> Airride / エアライド</a></li>' + "\n" +
         '                        <li><a href="' + home_path + 'pages/imitators/army.html"><img class="minecraft-item-icon" src="' + image_url + 'weapon/army.png" alt="" /> Army / アーミー</a></li>' + "\n" +
@@ -51,6 +52,23 @@ function insertSidebar(home_path = '') {
         '                        <li><a href="' + home_path + 'pages/imitators/vanisher.html"><img class="minecraft-item-icon" src="' + image_url + 'weapon/vanisher.png" alt="" /> Vanisher / ヴァニッシャー</a></li>' + "\n" +
         '                        <li><a href="' + home_path + 'pages/imitators/xray.html"><img class="minecraft-item-icon" src="' + image_url + 'weapon/xray.png" alt="" /> Xray / エクスレイ</a></li>' + "\n" +
         '                        <li><a href="' + home_path + 'pages/imitators/yeti.html"><img class="minecraft-item-icon" src="' + image_url + 'weapon/yeti.png" alt="" /> Yeti / イエティ</a></li>' + "\n" +
+        '                      </ul>' + "\n" +
+        '                    </li>' + "\n" +
+        '                    <li>' + "\n" +
+        '                      <span class="opener"><i class="icon solid fa-user-secret"></i> ネザーイミテイター</span>' + "\n" +
+        '                      <ul>' + "\n" +
+        '                        <li><a href="' + home_path + 'pages/imitators/airride_i.html"><img class="minecraft-item-icon" src="' + image_url + 'weapon/airride.png" alt="" /> Airride / エアライド</a></li>' + "\n" +
+        '                        <li><a href="' + home_path + 'pages/imitators/army_i.html"><img class="minecraft-item-icon" src="' + image_url + 'weapon/army.png" alt="" /> Army / アーミー</a></li>' + "\n" +
+        '                        <li><a href="' + home_path + 'pages/imitators/bastet_i.html"><img class="minecraft-item-icon" src="' + image_url + 'weapon/bastet.png" alt="" /> Bastet / バステト</a></li>' + "\n" +
+        '                        <li><a href="' + home_path + 'pages/imitators/doping_i.html"><img class="minecraft-item-icon" src="' + image_url + 'weapon/doping.png" alt="" /> Doping / ドーピング</a></li>' + "\n" +
+        '                        <li><a href="' + home_path + 'pages/imitators/illusion.html"><img class="minecraft-item-icon" src="' + image_url + 'weapon/illusion.png" alt="" /> Illusion / イリュージョン</a></li>' + "\n" +
+        '                        <li><a href="' + home_path + 'pages/imitators/leaper_i.html"><img class="minecraft-item-icon" src="' + image_url + 'weapon/leaper.png" alt="" /> Leaper / リーパー</a></li>' + "\n" +
+        '                        <li><a href="' + home_path + 'pages/imitators/rush.html"><img class="minecraft-item-icon" src="' + image_url + 'weapon/crushers.png" alt="" /> Rush / ラッシュ</a></li>' + "\n" +
+        '                        <li><a href="' + home_path + 'pages/imitators/scanner.html"><img class="minecraft-item-icon" src="' + image_url + 'weapon/scanner.png" alt="" /> Scanner / スキャナー</a></li>' + "\n" +
+        '                        <li><a href="' + home_path + 'pages/imitators/spear_i.html"><img class="minecraft-item-icon" src="' + image_url + 'weapon/spear.png" alt="" /> Spear / スピアー</a></li>' + "\n" +
+        '                        <li><a href="' + home_path + 'pages/imitators/villain.html"><img class="minecraft-item-icon" src="' + image_url + 'weapon/trapper.png" alt="" /> Villain / ヴィラン</a></li>' + "\n" +
+        '                        <li><a href="' + home_path + 'pages/imitators/wielder.html"><img class="minecraft-item-icon" src="' + image_url + 'weapon/canopy.png" alt="" /> Wielder / ウィルダー</a></li>' + "\n" +
+        '                        <li><a href="' + home_path + 'pages/imitators/yeti_i.html"><img class="minecraft-item-icon" src="' + image_url + 'weapon/yeti.png" alt="" /> Yeti / イエティ</a></li>' + "\n" +
         '                      </ul>' + "\n" +
         '                    </li>' + "\n" +
         '                    <li>' + "\n" +
